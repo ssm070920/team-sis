@@ -58,7 +58,7 @@ def tierCompare(solorank,flexrank):
     else:
         return 2
 warnings.filterwarnings(action='ignore')
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='.')
 
 opggsummonersearch = 'https://www.op.gg/summoner/userName='
 
