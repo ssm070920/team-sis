@@ -33,8 +33,8 @@ client_secret = access_secret
 colour = discord.Colour.blue()
 
 
-prefix='.'
-client = commands.Bot(command_prefix='prefix')
+
+client = commands.Bot(command_prefix='.')
 
 
 # for lolplayersearch
@@ -59,6 +59,7 @@ def tierCompare(solorank,flexrank):
         return 2
 warnings.filterwarnings(action='ignore')
 bot = commands.Bot(command_prefix='.')
+
 
 opggsummonersearch = 'https://www.op.gg/summoner/userName='
 
