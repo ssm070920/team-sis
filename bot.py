@@ -88,7 +88,7 @@ async def on_ready():
     print('Discord.py 버전 : ' + discord.__version__)
     print("bot starting..")#봇 시작이라고 뜨게하기
     print("==========")
-    await bt(['!명령어', '문의는 제네시스#7225'])
+    await bt(['.명령어', '문의는 제네시스#7225'])
 
 
 
