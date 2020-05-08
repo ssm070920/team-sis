@@ -33,8 +33,8 @@ client_secret = access_secret
 colour = discord.Colour.blue()
 
 
-
-client = commands.Bot(command_prefix='!')
+prefix='.'
+client = commands.Bot(command_prefix='prefix')
 
 
 # for lolplayersearch
