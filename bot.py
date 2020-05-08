@@ -99,7 +99,7 @@ async def help(ctx):
     embed = discord.Embed(title='명령어 모음집', colour=colour)
     embed.set_thumbnail(url="https://images-ext-2.discordapp.net/external/Vj5SFcCuTbJiU-V7vZNKSwbsYK_jxaNLEDTunlWZSSA/http/file3.instiz.net/data/file3/2018/03/14/6/5/0/650677eed1348016f364df5e563fd378.jpg%2522")
     embed.set_author(name="제네시스")
-    embed.add_field(name=".헬프", value="봇이 할수있는것을 보여줍니다.", inline=False)
+    embed.add_field(name=".명령어", value="봇이 할수있는것을 보여줍니다.", inline=False)
     embed.add_field(name=".핑", value="핑을 보여줍니다.", inline=False)
     embed.add_field(name=".정보", value="자신의 정보를 보여줍니다.", inline=False)
     embed.add_field(name=".서버정보", value="서버정보를 보여줍니다.", inline=False)
