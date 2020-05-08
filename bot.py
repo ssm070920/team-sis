@@ -708,7 +708,7 @@ async def _unban_error(ctx, error):
 @commands.has_permissions(administrator=True)
 async def _mute(ctx, member: discord.Member=None):
     member = member or ctx.message.author
-    await member.add_roles(get(ctx.guild.roles, name="Muted"))
+    await member.add_roles(get(ctx.guild.roles, name="뮤트"))
     await ctx.send(member.mention + "를 뮤트 했습니다")
 
 
@@ -728,7 +728,7 @@ async def _mute_error(ctx, error):
 @commands.has_permissions(administrator=True)
 async def _unmute(ctx, member: discord.Member=None):
     member = member or ctx.message.author
-    await member.remove_roles(get(ctx.guild.roles, name='Muted'))
+    await member.remove_roles(get(ctx.guild.roles, name='뮤트'))
     await ctx.send(member.mention + "를 언뮤트 했습니다.")
 
 
