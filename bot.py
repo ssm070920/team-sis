@@ -733,5 +733,5 @@ async def _unmute_error(ctx, error):
 
 
 
-access_token = access_token = os.environ ["TOKEN"]
+access_token = os.environ ["TOKEN"]
 client.run(access_token)
