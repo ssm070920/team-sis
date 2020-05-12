@@ -23,16 +23,13 @@ from bs4 import BeautifulSoup as bs
 import functools
 import itertools
 import math
-
-import discord
-import youtube_dl
 from async_timeout import timeout
-from discord.ext import commands
+
 # Naver Open API application ID
-access_id = "7uzc0yO0Z_ApPYNYcYcx"
+access_id = os.environ ["ID"]
 client_id = access_id
 # Naver Open API application token
-access_secret = "lkmFuNaDWQ"
+access_secret = os.environ ["SECRET"]
 client_secret = access_secret
 colour = discord.Colour.blue()
 
@@ -1221,5 +1218,5 @@ bot.add_cog(Music(bot))
 
 
 
-access_token = "NzAzOTMzMDA4NzU4OTY0MzI3.Xrd5CQ.OsyE-EfxLumfD8SY1SYhjzaLqU8"
+access_token = os.environ ["BOT_TOKEN"]
 client.run(access_token)
