@@ -8,9 +8,9 @@ from urllib.parse import quote
 from urllib.request import urlopen, Request, HTTPError
 
 #Naver Open API application ID
-client_id = "YeOVJk0bK59ryYiRDIiY"
+client_id = os.environ ["ID"]
 #Naver Open API application token
-client_secret = "ZBHDeMCaMe"
+client_secret = os.environ["secret"]
 colour = discord.Colour.blue()
 
 class 기타(commands.Cog):
