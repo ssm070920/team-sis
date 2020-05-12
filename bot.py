@@ -10,7 +10,7 @@ colour = discord.Colour.blue()
 
 
 
-client = commands.Bot(command_prefix='!')
+client = commands.Bot(command_prefix='.')
 
 
 
