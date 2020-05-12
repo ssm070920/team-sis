@@ -7,10 +7,12 @@ from discord.ext import commands
 from urllib.parse import quote
 from urllib.request import urlopen, Request, HTTPError
 
-#Naver Open API application ID
-client_id = os.environ ["ID"]
-#Naver Open API application token
-client_secret = os.environ["secret"]
+access_id = os.environ["ID"]
+client_id = access_id
+# Naver Open API application token
+access_secret = os.environ["secret"]
+client_secret = access_secret
+
 colour = discord.Colour.blue()
 
 class 기타(commands.Cog):
